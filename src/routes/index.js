@@ -1,6 +1,6 @@
 const express = require('express');
 
-const exampleRoutes = require('./exampleRoutes')
+const Data = require('./DataRoutes')
 
 
 
@@ -9,6 +9,6 @@ const router = express.Router();
 /**
  * Example Route
  */
-router.use('/example', exampleRoutes);
+router.use('/Note', Data);
 
 module.exports = router;

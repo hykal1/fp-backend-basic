@@ -1,4 +1,4 @@
-const exampleController = require('./exampleController');
+const exampleController = require('./DataController');
 
 module.exports = {
     ...exampleController
